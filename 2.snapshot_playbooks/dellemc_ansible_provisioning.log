@@ -1,0 +1,805 @@
+2020-06-23 14:52:01,611 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:01,611 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:01,611 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f6291092e48>
+2020-06-23 14:52:01,668 dellemc_powerstore_host.py INFO : Creating host Ansible_Cluster_Host1_IG
+2020-06-23 14:52:01,668 dellemc_powerstore_host.py INFO : Creating host Ansible_Cluster_Host1_IG with initiators [{'port_name': '10:00:00:00:c9:8f:fa:ee', 'port_type': 'FC'}, {'port_name': '10:00:00:00:c9:8f:fa:ef', 'port_type': 'FC'}]
+2020-06-23 14:52:02,410 dellemc_powerstore_host.py INFO : the response is {'id': '824c6667-8bf3-4f0d-bbf2-0bdc4a003410'}
+2020-06-23 14:52:02,520 dellemc_powerstore_host.py INFO : Getting host 824c6667-8bf3-4f0d-bbf2-0bdc4a003410 details
+2020-06-23 14:52:02,569 dellemc_powerstore_host.py INFO : changed True
+2020-06-23 14:52:03,072 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:03,072 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:03,072 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2fdcc46e48>
+2020-06-23 14:52:03,119 dellemc_powerstore_volume.py ERROR : Got error list index out of range while getting details of volume 
+2020-06-23 14:52:03,119 dellemc_powerstore_volume.py INFO : Creating volume ansible_1_1 of size 1073741824 with performance policy None, protection_policy None, description None and volume_group None
+2020-06-23 14:52:03,584 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 14:52:03,585 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:52:04,067 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:04,067 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:04,067 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f7688be5e48>
+2020-06-23 14:52:04,126 dellemc_powerstore_volume.py ERROR : Got error list index out of range while getting details of volume 
+2020-06-23 14:52:04,127 dellemc_powerstore_volume.py INFO : Creating volume ansible_1_2 of size 1073741824 with performance policy None, protection_policy None, description None and volume_group None
+2020-06-23 14:52:04,599 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 14:52:04,600 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:52:05,059 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:05,059 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:05,059 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f0640e29e48>
+2020-06-23 14:52:05,111 dellemc_powerstore_volume.py ERROR : Got error list index out of range while getting details of volume 
+2020-06-23 14:52:05,111 dellemc_powerstore_volume.py INFO : Creating volume ansible_1_3 of size 1073741824 with performance policy None, protection_policy None, description None and volume_group None
+2020-06-23 14:52:05,812 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 14:52:05,812 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:52:06,287 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:06,287 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:06,287 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4e1e27de48>
+2020-06-23 14:52:06,355 dellemc_powerstore_volume.py ERROR : Got error list index out of range while getting details of volume 
+2020-06-23 14:52:06,355 dellemc_powerstore_volume.py INFO : Creating volume ansible_1_4 of size 1073741824 with performance policy None, protection_policy None, description None and volume_group None
+2020-06-23 14:52:06,909 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 14:52:06,909 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:52:07,402 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:07,403 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:07,403 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe9456b5e48>
+2020-06-23 14:52:07,452 dellemc_powerstore_volume.py ERROR : Host group Ansible_Cluster_IG not found
+2020-06-23 14:52:07,811 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:07,811 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:07,811 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f173e44ce48>
+2020-06-23 14:52:07,864 dellemc_powerstore_volume.py ERROR : Host group Ansible_Cluster_IG not found
+2020-06-23 14:52:08,232 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:08,232 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:08,232 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f11ea64be48>
+2020-06-23 14:52:08,289 dellemc_powerstore_volume.py ERROR : Host group Ansible_Cluster_IG not found
+2020-06-23 14:52:08,653 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:08,653 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:08,653 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f8a1f807e48>
+2020-06-23 14:52:08,707 dellemc_powerstore_volume.py ERROR : Host group Ansible_Cluster_IG not found
+2020-06-23 14:52:52,812 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:52,812 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:52,812 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f0303456e48>
+2020-06-23 14:52:52,857 dellemc_powerstore_host.py INFO : Getting host 824c6667-8bf3-4f0d-bbf2-0bdc4a003410 details
+2020-06-23 14:52:52,916 dellemc_powerstore_host.py INFO : Adding initiators to host 824c6667-8bf3-4f0d-bbf2-0bdc4a003410
+2020-06-23 14:52:52,917 dellemc_powerstore_host.py INFO : Initiators are already present in host Ansible_Cluster_Host1_IG
+2020-06-23 14:52:52,967 dellemc_powerstore_host.py INFO : Getting host 824c6667-8bf3-4f0d-bbf2-0bdc4a003410 details
+2020-06-23 14:52:53,019 dellemc_powerstore_host.py INFO : changed False
+2020-06-23 14:52:53,536 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:53,536 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:53,536 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f36edceae48>
+2020-06-23 14:52:53,648 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 14:52:53,648 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:52:54,110 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:54,111 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:54,111 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f92a5180e48>
+2020-06-23 14:52:54,216 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 14:52:54,216 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:52:54,671 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:54,671 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:54,671 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fc77b969e48>
+2020-06-23 14:52:54,769 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 14:52:54,769 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:52:55,244 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:55,244 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:55,244 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f040466fe48>
+2020-06-23 14:52:55,397 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 14:52:55,397 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:52:55,896 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:55,896 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:55,896 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f610c0f5e48>
+2020-06-23 14:52:55,938 dellemc_powerstore_volume.py ERROR : Host group Ansible_Cluster_Host1_IG not found
+2020-06-23 14:52:56,304 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:56,304 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:56,304 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff60700fe48>
+2020-06-23 14:52:56,345 dellemc_powerstore_volume.py ERROR : Host group Ansible_Cluster_Host1_IG not found
+2020-06-23 14:52:56,710 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:56,710 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:56,710 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f06a1e88e48>
+2020-06-23 14:52:56,794 dellemc_powerstore_volume.py ERROR : Host group Ansible_Cluster_Host1_IG not found
+2020-06-23 14:52:57,170 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:52:57,170 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:52:57,170 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4639c76e48>
+2020-06-23 14:52:57,211 dellemc_powerstore_volume.py ERROR : Host group Ansible_Cluster_Host1_IG not found
+2020-06-23 14:53:44,044 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:53:44,044 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:53:44,044 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff1491cae48>
+2020-06-23 14:53:44,100 dellemc_powerstore_host.py INFO : Getting host 824c6667-8bf3-4f0d-bbf2-0bdc4a003410 details
+2020-06-23 14:53:44,150 dellemc_powerstore_host.py INFO : Adding initiators to host 824c6667-8bf3-4f0d-bbf2-0bdc4a003410
+2020-06-23 14:53:44,150 dellemc_powerstore_host.py INFO : Initiators are already present in host Ansible_Cluster_Host1_IG
+2020-06-23 14:53:44,197 dellemc_powerstore_host.py INFO : Getting host 824c6667-8bf3-4f0d-bbf2-0bdc4a003410 details
+2020-06-23 14:53:44,255 dellemc_powerstore_host.py INFO : changed False
+2020-06-23 14:53:44,767 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:53:44,767 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:53:44,767 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ffb931abe48>
+2020-06-23 14:53:44,881 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 14:53:44,881 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:53:45,377 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:53:45,377 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:53:45,377 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f71d613ae48>
+2020-06-23 14:53:45,476 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 14:53:45,476 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:53:45,933 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:53:45,933 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:53:45,933 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4c0d9efe48>
+2020-06-23 14:53:46,023 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 14:53:46,023 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:53:46,479 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:53:46,479 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:53:46,479 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f6ac127ce48>
+2020-06-23 14:53:46,591 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 14:53:46,592 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:53:47,091 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:53:47,091 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:53:47,091 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f61ca71ee48>
+2020-06-23 14:53:47,237 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:53:47,238 dellemc_powerstore_volume.py INFO : Mapping volume ansible_1_1 to host Ansible_Cluster_Host1_IG with HLU None
+2020-06-23 14:53:48,000 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:53:48,000 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:53:48,000 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff781566e48>
+2020-06-23 14:53:48,139 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:53:48,139 dellemc_powerstore_volume.py INFO : Mapping volume ansible_1_2 to host Ansible_Cluster_Host1_IG with HLU None
+2020-06-23 14:53:49,008 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:53:49,008 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:53:49,008 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f13307d3e48>
+2020-06-23 14:53:49,163 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:53:49,163 dellemc_powerstore_volume.py INFO : Mapping volume ansible_1_3 to host Ansible_Cluster_Host1_IG with HLU None
+2020-06-23 14:53:49,988 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 14:53:49,988 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 14:53:49,988 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fad068cee48>
+2020-06-23 14:53:50,261 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 14:53:50,261 dellemc_powerstore_volume.py INFO : Mapping volume ansible_1_4 to host Ansible_Cluster_Host1_IG with HLU None
+2020-06-23 15:02:14,747 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:02:14,747 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:02:14,747 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2fa1f47e48>
+2020-06-23 15:02:14,747 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f2f9a8c1278>
+2020-06-23 15:02:14,747 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:02:14,803 dellemc_powerstore_volumegroup.py INFO : Creating volume group Ansible_VolumeGroup
+2020-06-23 15:02:14,803 dellemc_powerstore_volumegroup.py INFO : Creating empty volume group Ansible_VolumeGroup 
+2020-06-23 15:02:14,891 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:02:14,946 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:02:14,946 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:02:15,013 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:02:56,443 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:02:56,444 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:02:56,444 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f91e8cf3e48>
+2020-06-23 15:02:56,444 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f91e166d208>
+2020-06-23 15:02:56,444 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:02:56,541 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:02:56,541 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:02:56,587 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:03:26,670 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:03:26,670 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:03:26,670 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f5c40528e48>
+2020-06-23 15:03:26,670 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f5c38ea2208>
+2020-06-23 15:03:26,670 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:03:26,778 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:03:26,778 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:03:26,826 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:03:27,238 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:03:27,238 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:03:27,238 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f23ad649e48>
+2020-06-23 15:03:27,238 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f23a5fc3278>
+2020-06-23 15:03:27,238 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:03:27,326 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:03:27,326 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:03:27,372 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:03:27,372 dellemc_powerstore_volumegroup.py INFO : ansible_1_1 is a NAME
+2020-06-23 15:03:27,579 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:03:27,630 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:03:27,991 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:03:27,991 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:03:27,991 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4bc1ffae48>
+2020-06-23 15:03:27,991 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f4bba974278>
+2020-06-23 15:03:27,991 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:03:28,094 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:03:28,094 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:03:28,143 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:03:28,143 dellemc_powerstore_volumegroup.py INFO : ansible_1_2 is a NAME
+2020-06-23 15:03:28,372 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:03:28,435 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:03:28,801 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:03:28,801 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:03:28,801 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f33f6c52e48>
+2020-06-23 15:03:28,801 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f33ef5cc278>
+2020-06-23 15:03:28,801 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:03:28,892 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:03:28,892 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:03:28,938 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:03:28,938 dellemc_powerstore_volumegroup.py INFO : ansible_1_3 is a NAME
+2020-06-23 15:03:29,145 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:03:29,197 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:03:29,572 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:03:29,572 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:03:29,572 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fafc3e40e48>
+2020-06-23 15:03:29,572 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7fafbc7ba278>
+2020-06-23 15:03:29,572 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:03:29,662 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:03:29,663 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:03:29,707 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:03:29,708 dellemc_powerstore_volumegroup.py INFO : ansible_1_4 is a NAME
+2020-06-23 15:03:29,931 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:03:29,979 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:14:05,105 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:14:05,105 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:14:05,105 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f29c1aa6e48>
+2020-06-23 15:14:05,105 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f29ba420240>
+2020-06-23 15:14:05,105 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:14:05,215 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:14:05,216 dellemc_powerstore_volumegroup.py INFO : Ansible_policy1 is a NAME
+2020-06-23 15:14:05,216 dellemc_powerstore_volumegroup.py INFO : Getting the details of protection policy Ansible_policy1
+2020-06-23 15:14:05,267 dellemc_powerstore_volumegroup.py ERROR : No protection policy present with name Ansible_policy1
+2020-06-23 15:14:13,852 dellemc_powerstore_protectionpolicy.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:14:13,852 dellemc_powerstore_protectionpolicy.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:14:13,852 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7f08a760e208>
+2020-06-23 15:14:13,852 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f089ff58080>
+2020-06-23 15:14:13,905 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of protection policy with  name: Ansible_policy1 , id: None
+2020-06-23 15:14:13,957 dellemc_powerstore_protectionpolicy.py INFO : Ansible_30_minute_rule is a NAME
+2020-06-23 15:14:13,957 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:14:14,003 dellemc_powerstore_protectionpolicy.py ERROR : snapshot rule name: Ansible_30_minute_rule is not found on the array
+2020-06-23 15:14:24,564 dellemc_powerstore_snapshotrule.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:14:24,564 dellemc_powerstore_snapshotrule.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:14:24,564 dellemc_powerstore_snapshotrule.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7f9a06bef208>
+2020-06-23 15:14:24,564 dellemc_powerstore_snapshotrule.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f99ff7f9160>
+2020-06-23 15:14:24,621 dellemc_powerstore_snapshotrule.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:14:24,678 dellemc_powerstore_snapshotrule.py INFO : Creating snapshot rule with interval
+2020-06-23 15:14:24,965 dellemc_powerstore_snapshotrule.py INFO : Successfully created snapshot rule by interval , id: 2e42ff9a-1e6b-4384-83e1-dfd345813a45 on powerstore array name : SiteA-Cluster , global id : 0
+2020-06-23 15:14:30,299 dellemc_powerstore_protectionpolicy.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:14:30,299 dellemc_powerstore_protectionpolicy.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:14:30,299 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7f4043c57208>
+2020-06-23 15:14:30,299 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f403c5a1080>
+2020-06-23 15:14:30,370 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of protection policy with  name: Ansible_policy1 , id: None
+2020-06-23 15:14:30,424 dellemc_powerstore_protectionpolicy.py INFO : Ansible_30_minute_rule is a NAME
+2020-06-23 15:14:30,424 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:14:30,470 dellemc_powerstore_protectionpolicy.py INFO : Successfully got the details of snapshot rule name Ansible_30_minute_rule from array name SiteA-Cluster and glboal id 0
+2020-06-23 15:14:30,470 dellemc_powerstore_protectionpolicy.py INFO : Creating protection policy with snapshot rule
+2020-06-23 15:14:30,624 dellemc_powerstore_protectionpolicy.py INFO : Successfully created protection policy , id: 6ea525c7-6c04-4095-b93f-1c69e4e1bb96 on powerstore array name : SiteA-Cluster , global id : 0
+2020-06-23 15:14:42,059 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:14:42,059 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:14:42,060 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f5b87c08e48>
+2020-06-23 15:14:42,060 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f5b80582240>
+2020-06-23 15:14:42,060 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:14:42,153 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:14:42,154 dellemc_powerstore_volumegroup.py INFO : Ansible_policy1 is a NAME
+2020-06-23 15:14:42,154 dellemc_powerstore_volumegroup.py INFO : Getting the details of protection policy Ansible_policy1
+2020-06-23 15:14:42,219 dellemc_powerstore_volumegroup.py INFO : Successfully got the protection policy name Ansible_policy1
+2020-06-23 15:14:42,219 dellemc_powerstore_volumegroup.py INFO : From Modify : 6ea525c7-6c04-4095-b93f-1c69e4e1bb96
+2020-06-23 15:14:42,219 dellemc_powerstore_volumegroup.py INFO : Modifying volume group: 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:14:42,387 dellemc_powerstore_volumegroup.py INFO : Successfully modified volume group: 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:14:42,387 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:14:42,473 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:25:14,925 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:25:14,925 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:25:14,926 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f5c60574e48>
+2020-06-23 15:25:14,926 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f5c58eee240>
+2020-06-23 15:25:14,926 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:25:15,033 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:25:15,033 dellemc_powerstore_volumegroup.py INFO : Ansible_policy1 is a NAME
+2020-06-23 15:25:15,033 dellemc_powerstore_volumegroup.py INFO : Getting the details of protection policy Ansible_policy1
+2020-06-23 15:25:15,075 dellemc_powerstore_volumegroup.py INFO : Successfully got the protection policy name Ansible_policy1
+2020-06-23 15:25:15,075 dellemc_powerstore_volumegroup.py INFO : Deleting volume group 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:25:15,360 dellemc_powerstore_volumegroup.py ERROR : Failed to delete volume group 5ecc6105-2e66-4fde-a6b2-80161ea1f28d with error HTTP code: 422, Unprocessable Entity [Request could not be completed. Error details: {'messages': [{'code': '0xE0A070040002', 'severity': 'Error', 'message_l10n': 'Remove the protection policy from the volume group Ansible_VolumeGroup (id: 5ecc6105-2e66-4fde-a6b2-80161ea1f28d) before deleting the volume group.', 'arguments': ['5ecc6105-2e66-4fde-a6b2-80161ea1f28d', 'Ansible_VolumeGroup']}]}]
+2020-06-23 15:28:05,230 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:28:05,230 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:28:05,230 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4a25071e48>
+2020-06-23 15:28:05,230 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f4a1d9eb240>
+2020-06-23 15:28:05,230 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:28:05,364 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:28:05,364 dellemc_powerstore_volumegroup.py INFO : From Modify : 
+2020-06-23 15:28:05,364 dellemc_powerstore_volumegroup.py INFO : Modifying volume group: 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:28:05,668 dellemc_powerstore_volumegroup.py INFO : Successfully modified volume group: 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:28:05,668 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:28:05,737 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:28:22,418 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:28:22,418 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:28:22,418 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe3f7d0fe48>
+2020-06-23 15:28:22,418 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7fe3f0689240>
+2020-06-23 15:28:22,418 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:28:22,601 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:28:22,602 dellemc_powerstore_volumegroup.py INFO : From Modify : 
+2020-06-23 15:28:22,602 dellemc_powerstore_volumegroup.py INFO : Modifying volume group: 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:28:22,813 dellemc_powerstore_volumegroup.py INFO : Successfully modified volume group: 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:28:22,813 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:28:22,867 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:28:23,392 dellemc_powerstore_protectionpolicy.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:28:23,392 dellemc_powerstore_protectionpolicy.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:28:23,392 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7fb4d8898208>
+2020-06-23 15:28:23,392 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7fb4d11e2080>
+2020-06-23 15:28:23,439 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of protection policy with  name: Ansible_policy1 , id: None
+2020-06-23 15:28:23,535 dellemc_powerstore_protectionpolicy.py INFO : Successfully got the details of protection policy name Ansible_policy1 from array name SiteA-Cluster and glboal id 0
+2020-06-23 15:28:23,535 dellemc_powerstore_protectionpolicy.py INFO : Ansible_30_minute_rule is a NAME
+2020-06-23 15:28:23,535 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:28:23,577 dellemc_powerstore_protectionpolicy.py INFO : Successfully got the details of snapshot rule name Ansible_30_minute_rule from array name SiteA-Cluster and glboal id 0
+2020-06-23 15:28:23,578 dellemc_powerstore_protectionpolicy.py INFO : deleting protection policy id 6ea525c7-6c04-4095-b93f-1c69e4e1bb96
+2020-06-23 15:28:23,697 dellemc_powerstore_protectionpolicy.py INFO : Successfully deleted protection policy id 6ea525c7-6c04-4095-b93f-1c69e4e1bb96 from powerstore array name : SiteA-Cluster , global id : 0
+2020-06-23 15:29:29,601 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:29:29,601 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:29:29,601 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f7f805a5e48>
+2020-06-23 15:29:29,601 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f7f78f1f240>
+2020-06-23 15:29:29,602 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:29:29,693 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:29:29,693 dellemc_powerstore_volumegroup.py INFO : From Modify : 
+2020-06-23 15:29:29,694 dellemc_powerstore_volumegroup.py INFO : Modifying volume group: 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:29:29,827 dellemc_powerstore_volumegroup.py INFO : Successfully modified volume group: 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:29:29,827 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 5ecc6105-2e66-4fde-a6b2-80161ea1f28d None
+2020-06-23 15:29:29,878 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:29:30,395 dellemc_powerstore_protectionpolicy.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:29:30,395 dellemc_powerstore_protectionpolicy.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:29:30,395 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7f6109b54208>
+2020-06-23 15:29:30,395 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f610249e080>
+2020-06-23 15:29:30,460 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of protection policy with  name: Ansible_policy1 , id: None
+2020-06-23 15:29:30,510 dellemc_powerstore_protectionpolicy.py INFO : Ansible_30_minute_rule is a NAME
+2020-06-23 15:29:30,511 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:29:30,561 dellemc_powerstore_protectionpolicy.py INFO : Successfully got the details of snapshot rule name Ansible_30_minute_rule from array name SiteA-Cluster and glboal id 0
+2020-06-23 15:29:31,060 dellemc_powerstore_snapshotrule.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:29:31,060 dellemc_powerstore_snapshotrule.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:29:31,060 dellemc_powerstore_snapshotrule.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7fdea7106208>
+2020-06-23 15:29:31,060 dellemc_powerstore_snapshotrule.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7fde9fd1a160>
+2020-06-23 15:29:31,158 dellemc_powerstore_snapshotrule.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:29:31,264 dellemc_powerstore_snapshotrule.py INFO : Successfully got the details of snapshot rule name Ansible_30_minute_rule from array name SiteA-Cluster and glboal id 0
+2020-06-23 15:29:31,347 dellemc_powerstore_snapshotrule.py INFO : deleting snapshot rule id 2e42ff9a-1e6b-4384-83e1-dfd345813a45
+2020-06-23 15:29:31,938 dellemc_powerstore_snapshotrule.py INFO : Successfully deleted snapshot rule id 2e42ff9a-1e6b-4384-83e1-dfd345813a45 from powerstore array name : SiteA-Cluster , global id : 0
+2020-06-23 15:29:32,348 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:29:32,349 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:29:32,349 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f492d692e48>
+2020-06-23 15:29:32,349 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f492600c2b0>
+2020-06-23 15:29:32,349 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:29:32,492 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:29:32,492 dellemc_powerstore_volumegroup.py INFO : Deleting volume group 5ecc6105-2e66-4fde-a6b2-80161ea1f28d
+2020-06-23 15:29:33,342 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:29:33,342 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:29:33,342 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe5ec5dee48>
+2020-06-23 15:29:33,483 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:29:33,483 dellemc_powerstore_volume.py INFO : Unmapping volume ansible_1_1 from host Ansible_Cluster_Host1_IG
+2020-06-23 15:29:34,275 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:29:34,275 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:29:34,275 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f33ba20de48>
+2020-06-23 15:29:34,440 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:29:34,440 dellemc_powerstore_volume.py INFO : Unmapping volume ansible_1_2 from host Ansible_Cluster_Host1_IG
+2020-06-23 15:29:35,153 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:29:35,153 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:29:35,153 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fdac3aa3e48>
+2020-06-23 15:29:35,294 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:29:35,294 dellemc_powerstore_volume.py INFO : Unmapping volume ansible_1_3 from host Ansible_Cluster_Host1_IG
+2020-06-23 15:29:36,021 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:29:36,021 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:29:36,021 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f24c078ce48>
+2020-06-23 15:29:36,159 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:29:36,159 dellemc_powerstore_volume.py INFO : Unmapping volume ansible_1_4 from host Ansible_Cluster_Host1_IG
+2020-06-23 15:29:37,011 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:29:37,011 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:29:37,011 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f6c7523be48>
+2020-06-23 15:29:37,066 dellemc_powerstore_host.py INFO : Getting host 824c6667-8bf3-4f0d-bbf2-0bdc4a003410 details
+2020-06-23 15:29:37,125 dellemc_powerstore_host.py INFO : Delete host Ansible_Cluster_Host1_IG 
+2020-06-23 15:29:37,898 dellemc_powerstore_host.py INFO : changed True
+2020-06-23 15:30:21,450 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:30:21,450 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:30:21,450 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4bdefaae48>
+2020-06-23 15:30:21,450 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f4bd7924240>
+2020-06-23 15:30:21,450 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:30:21,497 dellemc_powerstore_volumegroup.py INFO : Creating volume group Ansible_VolumeGroup
+2020-06-23 15:30:21,497 dellemc_powerstore_volumegroup.py INFO : Creating empty volume group Ansible_VolumeGroup 
+2020-06-23 15:30:21,624 dellemc_powerstore_volumegroup.py ERROR : Failed to create volume group Ansible_VolumeGroup with error HTTP code: 400, Bad Request [{'messages': [{'code': '0xE0A070010007', 'severity': 'Error', 'message_l10n': 'The protection policy id  is invalid.', 'arguments': ['']}]}]
+2020-06-23 15:30:41,986 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:30:41,986 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:30:41,986 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f482a2a3e48>
+2020-06-23 15:30:42,162 dellemc_powerstore_host.py INFO : Creating host Ansible_Cluster_Host1_IG
+2020-06-23 15:30:42,162 dellemc_powerstore_host.py INFO : Creating host Ansible_Cluster_Host1_IG with initiators [{'port_name': '10:00:00:00:c9:8f:fa:ee', 'port_type': 'FC'}, {'port_name': '10:00:00:00:c9:8f:fa:ef', 'port_type': 'FC'}]
+2020-06-23 15:30:42,879 dellemc_powerstore_host.py INFO : the response is {'id': '408952e0-6dd4-4bb7-b3ab-53e607a2a348'}
+2020-06-23 15:30:42,994 dellemc_powerstore_host.py INFO : Getting host 408952e0-6dd4-4bb7-b3ab-53e607a2a348 details
+2020-06-23 15:30:43,039 dellemc_powerstore_host.py INFO : changed True
+2020-06-23 15:30:43,554 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:30:43,554 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:30:43,554 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9da9440e48>
+2020-06-23 15:30:43,648 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 15:30:43,648 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:30:44,099 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:30:44,099 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:30:44,099 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2553404e48>
+2020-06-23 15:30:44,209 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 15:30:44,209 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:30:44,668 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:30:44,668 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:30:44,668 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f051566be48>
+2020-06-23 15:30:44,759 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 15:30:44,759 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:30:45,238 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:30:45,238 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:30:45,238 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2a264ade48>
+2020-06-23 15:30:45,424 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 15:30:45,424 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:30:46,005 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:30:46,006 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:30:46,006 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7faef012de48>
+2020-06-23 15:30:46,243 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:30:46,244 dellemc_powerstore_volume.py INFO : Mapping volume ansible_1_1 to host Ansible_Cluster_Host1_IG with HLU None
+2020-06-23 15:30:47,634 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:30:47,634 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:30:47,634 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fdc4427ee48>
+2020-06-23 15:30:47,840 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:30:47,841 dellemc_powerstore_volume.py INFO : Mapping volume ansible_1_2 to host Ansible_Cluster_Host1_IG with HLU None
+2020-06-23 15:30:48,644 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:30:48,645 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:30:48,645 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7faea5e08e48>
+2020-06-23 15:30:48,776 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:30:48,777 dellemc_powerstore_volume.py INFO : Mapping volume ansible_1_3 to host Ansible_Cluster_Host1_IG with HLU None
+2020-06-23 15:30:49,502 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:30:49,502 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:30:49,502 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f5d42089e48>
+2020-06-23 15:30:49,641 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:30:49,641 dellemc_powerstore_volume.py INFO : Mapping volume ansible_1_4 to host Ansible_Cluster_Host1_IG with HLU None
+2020-06-23 15:30:57,344 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:30:57,344 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:30:57,344 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fde8e551e48>
+2020-06-23 15:30:57,344 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7fde86ecb208>
+2020-06-23 15:30:57,345 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:30:57,394 dellemc_powerstore_volumegroup.py INFO : Creating volume group Ansible_VolumeGroup
+2020-06-23 15:30:57,394 dellemc_powerstore_volumegroup.py INFO : Creating empty volume group Ansible_VolumeGroup 
+2020-06-23 15:30:57,519 dellemc_powerstore_volumegroup.py INFO : Getting VG Details f48af678-cf2f-4f95-805c-6d300642a1a1 None
+2020-06-23 15:30:57,593 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:30:57,594 dellemc_powerstore_volumegroup.py INFO : Getting VG Details f48af678-cf2f-4f95-805c-6d300642a1a1 None
+2020-06-23 15:30:57,683 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:30:58,087 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:30:58,087 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:30:58,087 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f0d60f56e48>
+2020-06-23 15:30:58,087 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f0d598d0278>
+2020-06-23 15:30:58,087 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:30:58,246 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:30:58,247 dellemc_powerstore_volumegroup.py INFO : Getting VG Details f48af678-cf2f-4f95-805c-6d300642a1a1 None
+2020-06-23 15:30:58,309 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:30:58,310 dellemc_powerstore_volumegroup.py INFO : ansible_1_1 is a NAME
+2020-06-23 15:30:58,643 dellemc_powerstore_volumegroup.py INFO : Getting VG Details f48af678-cf2f-4f95-805c-6d300642a1a1 None
+2020-06-23 15:30:58,704 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:30:59,070 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:30:59,070 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:30:59,070 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9eaba94e48>
+2020-06-23 15:30:59,070 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f9ea440e278>
+2020-06-23 15:30:59,070 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:30:59,181 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:30:59,181 dellemc_powerstore_volumegroup.py INFO : Getting VG Details f48af678-cf2f-4f95-805c-6d300642a1a1 None
+2020-06-23 15:30:59,272 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:30:59,273 dellemc_powerstore_volumegroup.py INFO : ansible_1_2 is a NAME
+2020-06-23 15:30:59,476 dellemc_powerstore_volumegroup.py INFO : Getting VG Details f48af678-cf2f-4f95-805c-6d300642a1a1 None
+2020-06-23 15:30:59,524 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:30:59,894 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:30:59,894 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:30:59,894 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9da2e80e48>
+2020-06-23 15:30:59,894 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f9d9b7fa208>
+2020-06-23 15:30:59,894 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:30:59,990 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:30:59,991 dellemc_powerstore_volumegroup.py INFO : Getting VG Details f48af678-cf2f-4f95-805c-6d300642a1a1 None
+2020-06-23 15:31:00,034 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:31:00,034 dellemc_powerstore_volumegroup.py INFO : ansible_1_3 is a NAME
+2020-06-23 15:31:00,266 dellemc_powerstore_volumegroup.py INFO : Getting VG Details f48af678-cf2f-4f95-805c-6d300642a1a1 None
+2020-06-23 15:31:00,338 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:31:00,692 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:31:00,692 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:31:00,692 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f5127c45e48>
+2020-06-23 15:31:00,692 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f51205bf278>
+2020-06-23 15:31:00,692 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:31:00,782 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:31:00,782 dellemc_powerstore_volumegroup.py INFO : Getting VG Details f48af678-cf2f-4f95-805c-6d300642a1a1 None
+2020-06-23 15:31:00,834 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:31:00,834 dellemc_powerstore_volumegroup.py INFO : ansible_1_4 is a NAME
+2020-06-23 15:31:01,056 dellemc_powerstore_volumegroup.py INFO : Getting VG Details f48af678-cf2f-4f95-805c-6d300642a1a1 None
+2020-06-23 15:31:01,107 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:31:06,769 dellemc_powerstore_protectionpolicy.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:31:06,769 dellemc_powerstore_protectionpolicy.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:31:06,769 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7fea60caa208>
+2020-06-23 15:31:06,769 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7fea595f4080>
+2020-06-23 15:31:06,815 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of protection policy with  name: Ansible_policy1 , id: None
+2020-06-23 15:31:06,870 dellemc_powerstore_protectionpolicy.py INFO : Ansible_30_minute_rule is a NAME
+2020-06-23 15:31:06,870 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:31:06,911 dellemc_powerstore_protectionpolicy.py ERROR : snapshot rule name: Ansible_30_minute_rule is not found on the array
+2020-06-23 15:31:20,226 dellemc_powerstore_snapshotrule.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:31:20,226 dellemc_powerstore_snapshotrule.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:31:20,226 dellemc_powerstore_snapshotrule.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7f0d409d0208>
+2020-06-23 15:31:20,226 dellemc_powerstore_snapshotrule.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f0d395e4160>
+2020-06-23 15:31:20,270 dellemc_powerstore_snapshotrule.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:31:20,321 dellemc_powerstore_snapshotrule.py INFO : Creating snapshot rule with interval
+2020-06-23 15:31:20,652 dellemc_powerstore_snapshotrule.py INFO : Successfully created snapshot rule by interval , id: c68dc51f-999b-4ab0-86cc-0681b64c44f5 on powerstore array name : SiteA-Cluster , global id : 0
+2020-06-23 15:31:23,350 dellemc_powerstore_protectionpolicy.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:31:23,350 dellemc_powerstore_protectionpolicy.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:31:23,350 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7efcd4016208>
+2020-06-23 15:31:23,350 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7efccc960080>
+2020-06-23 15:31:23,399 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of protection policy with  name: Ansible_policy1 , id: None
+2020-06-23 15:31:23,443 dellemc_powerstore_protectionpolicy.py INFO : Ansible_30_minute_rule is a NAME
+2020-06-23 15:31:23,443 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:31:23,487 dellemc_powerstore_protectionpolicy.py INFO : Successfully got the details of snapshot rule name Ansible_30_minute_rule from array name SiteA-Cluster and glboal id 0
+2020-06-23 15:31:23,487 dellemc_powerstore_protectionpolicy.py INFO : Creating protection policy with snapshot rule
+2020-06-23 15:31:23,630 dellemc_powerstore_protectionpolicy.py INFO : Successfully created protection policy , id: 31ef9192-c9e8-4156-8f89-6c11a62d5c72 on powerstore array name : SiteA-Cluster , global id : 0
+2020-06-23 15:31:31,155 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:31:31,155 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:31:31,155 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f0ad87bfe48>
+2020-06-23 15:31:31,155 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f0ad11391d0>
+2020-06-23 15:31:31,155 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:31:31,255 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:31:31,255 dellemc_powerstore_volumegroup.py INFO : Ansible_policy1 is a NAME
+2020-06-23 15:31:31,255 dellemc_powerstore_volumegroup.py INFO : Getting the details of protection policy Ansible_policy1
+2020-06-23 15:31:31,299 dellemc_powerstore_volumegroup.py INFO : Successfully got the protection policy name Ansible_policy1
+2020-06-23 15:31:31,299 dellemc_powerstore_volumegroup.py INFO : From Modify : 31ef9192-c9e8-4156-8f89-6c11a62d5c72
+2020-06-23 15:31:31,299 dellemc_powerstore_volumegroup.py INFO : Modifying volume group: f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:31:31,446 dellemc_powerstore_volumegroup.py INFO : Successfully modified volume group: f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:31:31,446 dellemc_powerstore_volumegroup.py INFO : Getting VG Details f48af678-cf2f-4f95-805c-6d300642a1a1 None
+2020-06-23 15:31:31,493 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:31:35,341 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:31:35,341 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:31:35,342 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7feed441de48>
+2020-06-23 15:31:35,342 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7feeccd971d0>
+2020-06-23 15:31:35,342 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:31:35,461 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:31:35,461 dellemc_powerstore_volumegroup.py INFO : From Modify : 
+2020-06-23 15:31:35,462 dellemc_powerstore_volumegroup.py INFO : Modifying volume group: f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:31:35,641 dellemc_powerstore_volumegroup.py INFO : Successfully modified volume group: f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:31:35,641 dellemc_powerstore_volumegroup.py INFO : Getting VG Details f48af678-cf2f-4f95-805c-6d300642a1a1 None
+2020-06-23 15:31:35,714 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:31:36,245 dellemc_powerstore_protectionpolicy.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:31:36,245 dellemc_powerstore_protectionpolicy.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:31:36,245 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7f2914147208>
+2020-06-23 15:31:36,245 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f290ca91080>
+2020-06-23 15:31:36,293 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of protection policy with  name: Ansible_policy1 , id: None
+2020-06-23 15:31:36,405 dellemc_powerstore_protectionpolicy.py INFO : Successfully got the details of protection policy name Ansible_policy1 from array name SiteA-Cluster and glboal id 0
+2020-06-23 15:31:36,405 dellemc_powerstore_protectionpolicy.py INFO : Ansible_30_minute_rule is a NAME
+2020-06-23 15:31:36,405 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:31:36,471 dellemc_powerstore_protectionpolicy.py INFO : Successfully got the details of snapshot rule name Ansible_30_minute_rule from array name SiteA-Cluster and glboal id 0
+2020-06-23 15:31:36,471 dellemc_powerstore_protectionpolicy.py INFO : deleting protection policy id 31ef9192-c9e8-4156-8f89-6c11a62d5c72
+2020-06-23 15:31:36,608 dellemc_powerstore_protectionpolicy.py INFO : Successfully deleted protection policy id 31ef9192-c9e8-4156-8f89-6c11a62d5c72 from powerstore array name : SiteA-Cluster , global id : 0
+2020-06-23 15:31:37,140 dellemc_powerstore_snapshotrule.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:31:37,140 dellemc_powerstore_snapshotrule.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:31:37,140 dellemc_powerstore_snapshotrule.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7fca3ca99208>
+2020-06-23 15:31:37,140 dellemc_powerstore_snapshotrule.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7fca356ad160>
+2020-06-23 15:31:37,194 dellemc_powerstore_snapshotrule.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:31:37,240 dellemc_powerstore_snapshotrule.py INFO : Successfully got the details of snapshot rule name Ansible_30_minute_rule from array name SiteA-Cluster and glboal id 0
+2020-06-23 15:31:37,282 dellemc_powerstore_snapshotrule.py INFO : deleting snapshot rule id c68dc51f-999b-4ab0-86cc-0681b64c44f5
+2020-06-23 15:31:37,517 dellemc_powerstore_snapshotrule.py INFO : Successfully deleted snapshot rule id c68dc51f-999b-4ab0-86cc-0681b64c44f5 from powerstore array name : SiteA-Cluster , global id : 0
+2020-06-23 15:31:37,917 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:31:37,917 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:31:37,917 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f8b8336ae48>
+2020-06-23 15:31:37,917 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f8b7bce42b0>
+2020-06-23 15:31:37,918 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:31:38,024 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:31:38,025 dellemc_powerstore_volumegroup.py INFO : Deleting volume group f48af678-cf2f-4f95-805c-6d300642a1a1
+2020-06-23 15:31:38,739 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:31:38,739 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:31:38,739 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f53c535be48>
+2020-06-23 15:31:38,888 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:31:38,888 dellemc_powerstore_volume.py INFO : Unmapping volume ansible_1_1 from host Ansible_Cluster_Host1_IG
+2020-06-23 15:31:39,616 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:31:39,616 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:31:39,616 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fa5a2fa7e48>
+2020-06-23 15:31:39,751 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:31:39,751 dellemc_powerstore_volume.py INFO : Unmapping volume ansible_1_2 from host Ansible_Cluster_Host1_IG
+2020-06-23 15:31:40,427 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:31:40,427 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:31:40,427 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f69df0b4e48>
+2020-06-23 15:31:40,618 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:31:40,618 dellemc_powerstore_volume.py INFO : Unmapping volume ansible_1_3 from host Ansible_Cluster_Host1_IG
+2020-06-23 15:31:41,434 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:31:41,434 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:31:41,434 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f7bed9e3e48>
+2020-06-23 15:31:41,571 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:31:41,571 dellemc_powerstore_volume.py INFO : Unmapping volume ansible_1_4 from host Ansible_Cluster_Host1_IG
+2020-06-23 15:31:42,470 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:31:42,470 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:31:42,470 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9b8db91e48>
+2020-06-23 15:31:42,537 dellemc_powerstore_host.py INFO : Getting host 408952e0-6dd4-4bb7-b3ab-53e607a2a348 details
+2020-06-23 15:31:42,604 dellemc_powerstore_host.py INFO : Delete host Ansible_Cluster_Host1_IG 
+2020-06-23 15:31:42,992 dellemc_powerstore_host.py INFO : changed True
+2020-06-23 15:32:15,116 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:15,116 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:15,116 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f1caf44fe48>
+2020-06-23 15:32:15,116 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f1ca7dc91d0>
+2020-06-23 15:32:15,116 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:32:15,159 dellemc_powerstore_volumegroup.py INFO : Creating volume group Ansible_VolumeGroup
+2020-06-23 15:32:15,159 dellemc_powerstore_volumegroup.py INFO : Creating empty volume group Ansible_VolumeGroup 
+2020-06-23 15:32:15,235 dellemc_powerstore_volumegroup.py ERROR : Failed to create volume group Ansible_VolumeGroup with error HTTP code: 400, Bad Request [{'messages': [{'code': '0xE0A070010007', 'severity': 'Error', 'message_l10n': 'The protection policy id  is invalid.', 'arguments': ['']}]}]
+2020-06-23 15:32:23,078 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:23,078 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:23,078 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f1fa8881e48>
+2020-06-23 15:32:23,124 dellemc_powerstore_host.py INFO : Creating host Ansible_Cluster_Host1_IG
+2020-06-23 15:32:23,124 dellemc_powerstore_host.py INFO : Creating host Ansible_Cluster_Host1_IG with initiators [{'port_name': '10:00:00:00:c9:8f:fa:ee', 'port_type': 'FC'}, {'port_name': '10:00:00:00:c9:8f:fa:ef', 'port_type': 'FC'}]
+2020-06-23 15:32:23,883 dellemc_powerstore_host.py INFO : the response is {'id': '8381bcb4-22e7-406d-8a10-3870854a3fc8'}
+2020-06-23 15:32:24,046 dellemc_powerstore_host.py INFO : Getting host 8381bcb4-22e7-406d-8a10-3870854a3fc8 details
+2020-06-23 15:32:24,113 dellemc_powerstore_host.py INFO : changed True
+2020-06-23 15:32:24,610 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:24,610 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:24,610 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f46f88a1e48>
+2020-06-23 15:32:24,811 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 15:32:24,811 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:32:25,334 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:25,334 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:25,334 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f7570a89e48>
+2020-06-23 15:32:25,429 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 15:32:25,429 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:32:25,873 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:25,873 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:25,873 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f33be0ebe48>
+2020-06-23 15:32:25,960 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 15:32:25,961 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:32:26,403 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:26,403 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:26,403 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f11792b0e48>
+2020-06-23 15:32:26,500 dellemc_powerstore_volume.py INFO : Current volume size 1073741824 B is same as 1073741824 B specified
+2020-06-23 15:32:26,501 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:32:26,985 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:26,985 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:26,985 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fc5040b4e48>
+2020-06-23 15:32:27,135 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:32:27,135 dellemc_powerstore_volume.py INFO : Mapping volume ansible_1_1 to host Ansible_Cluster_Host1_IG with HLU None
+2020-06-23 15:32:27,841 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:27,841 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:27,841 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f32b5979e48>
+2020-06-23 15:32:28,025 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:32:28,025 dellemc_powerstore_volume.py INFO : Mapping volume ansible_1_2 to host Ansible_Cluster_Host1_IG with HLU None
+2020-06-23 15:32:28,754 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:28,754 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:28,754 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f29c52e9e48>
+2020-06-23 15:32:28,921 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:32:28,921 dellemc_powerstore_volume.py INFO : Mapping volume ansible_1_3 to host Ansible_Cluster_Host1_IG with HLU None
+2020-06-23 15:32:29,659 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:29,659 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:29,659 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2178811e48>
+2020-06-23 15:32:29,798 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:32:29,798 dellemc_powerstore_volume.py INFO : Mapping volume ansible_1_4 to host Ansible_Cluster_Host1_IG with HLU None
+2020-06-23 15:32:34,508 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:34,508 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:34,508 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9e5b691e48>
+2020-06-23 15:32:34,508 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f9e5400b208>
+2020-06-23 15:32:34,509 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:32:34,553 dellemc_powerstore_volumegroup.py INFO : Creating volume group Ansible_VolumeGroup
+2020-06-23 15:32:34,554 dellemc_powerstore_volumegroup.py INFO : Creating empty volume group Ansible_VolumeGroup 
+2020-06-23 15:32:34,694 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0 None
+2020-06-23 15:32:34,743 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:34,744 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0 None
+2020-06-23 15:32:34,789 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:35,189 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:35,189 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:35,189 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f2d84e68e48>
+2020-06-23 15:32:35,189 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f2d7d7e2278>
+2020-06-23 15:32:35,189 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:32:35,275 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:32:35,275 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0 None
+2020-06-23 15:32:35,318 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:35,318 dellemc_powerstore_volumegroup.py INFO : ansible_1_1 is a NAME
+2020-06-23 15:32:35,519 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0 None
+2020-06-23 15:32:35,567 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:35,925 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:35,925 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:35,925 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f5821e32e48>
+2020-06-23 15:32:35,925 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f581a7ac278>
+2020-06-23 15:32:35,925 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:32:36,017 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:32:36,017 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0 None
+2020-06-23 15:32:36,063 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:36,063 dellemc_powerstore_volumegroup.py INFO : ansible_1_2 is a NAME
+2020-06-23 15:32:36,292 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0 None
+2020-06-23 15:32:36,338 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:36,689 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:36,689 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:36,689 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fb5bbb7be48>
+2020-06-23 15:32:36,689 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7fb5b44f5278>
+2020-06-23 15:32:36,689 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:32:36,808 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:32:36,808 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0 None
+2020-06-23 15:32:36,866 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:36,866 dellemc_powerstore_volumegroup.py INFO : ansible_1_3 is a NAME
+2020-06-23 15:32:37,153 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0 None
+2020-06-23 15:32:37,208 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:37,582 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:37,583 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:37,583 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f9bfe10ce48>
+2020-06-23 15:32:37,583 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f9bf6a86278>
+2020-06-23 15:32:37,583 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:32:37,729 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:32:37,729 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0 None
+2020-06-23 15:32:37,802 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:37,803 dellemc_powerstore_volumegroup.py INFO : ansible_1_4 is a NAME
+2020-06-23 15:32:38,049 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0 None
+2020-06-23 15:32:38,108 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:41,616 dellemc_powerstore_snapshotrule.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:41,616 dellemc_powerstore_snapshotrule.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:41,616 dellemc_powerstore_snapshotrule.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7f947f7cf208>
+2020-06-23 15:32:41,616 dellemc_powerstore_snapshotrule.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f94783e3160>
+2020-06-23 15:32:41,660 dellemc_powerstore_snapshotrule.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:32:41,703 dellemc_powerstore_snapshotrule.py INFO : Creating snapshot rule with interval
+2020-06-23 15:32:42,006 dellemc_powerstore_snapshotrule.py INFO : Successfully created snapshot rule by interval , id: 0cdfe30b-7f02-41d8-8cd0-5f1f2ba964c7 on powerstore array name : SiteA-Cluster , global id : 0
+2020-06-23 15:32:46,703 dellemc_powerstore_protectionpolicy.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:46,703 dellemc_powerstore_protectionpolicy.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:46,703 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7f29a4ebb208>
+2020-06-23 15:32:46,703 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f299d805080>
+2020-06-23 15:32:46,748 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of protection policy with  name: Ansible_policy1 , id: None
+2020-06-23 15:32:46,794 dellemc_powerstore_protectionpolicy.py INFO : Ansible_30_minute_rule is a NAME
+2020-06-23 15:32:46,794 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:32:46,838 dellemc_powerstore_protectionpolicy.py INFO : Successfully got the details of snapshot rule name Ansible_30_minute_rule from array name SiteA-Cluster and glboal id 0
+2020-06-23 15:32:46,838 dellemc_powerstore_protectionpolicy.py INFO : Creating protection policy with snapshot rule
+2020-06-23 15:32:46,989 dellemc_powerstore_protectionpolicy.py INFO : Successfully created protection policy , id: 219eda7f-8461-47bb-bd7f-cd23af610683 on powerstore array name : SiteA-Cluster , global id : 0
+2020-06-23 15:32:52,562 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:52,562 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:52,562 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4d53f5ce48>
+2020-06-23 15:32:52,563 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f4d4c8d6240>
+2020-06-23 15:32:52,563 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:32:52,670 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:32:52,671 dellemc_powerstore_volumegroup.py INFO : Ansible_policy1 is a NAME
+2020-06-23 15:32:52,671 dellemc_powerstore_volumegroup.py INFO : Getting the details of protection policy Ansible_policy1
+2020-06-23 15:32:52,733 dellemc_powerstore_volumegroup.py INFO : Successfully got the protection policy name Ansible_policy1
+2020-06-23 15:32:52,733 dellemc_powerstore_volumegroup.py INFO : From Modify : 219eda7f-8461-47bb-bd7f-cd23af610683
+2020-06-23 15:32:52,733 dellemc_powerstore_volumegroup.py INFO : Modifying volume group: 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:52,854 dellemc_powerstore_volumegroup.py INFO : Successfully modified volume group: 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:52,854 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0 None
+2020-06-23 15:32:52,906 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:56,613 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:56,613 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:56,613 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fe33db5ce48>
+2020-06-23 15:32:56,614 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7fe3364d6240>
+2020-06-23 15:32:56,614 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:32:56,704 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:32:56,705 dellemc_powerstore_volumegroup.py INFO : From Modify : 
+2020-06-23 15:32:56,705 dellemc_powerstore_volumegroup.py INFO : Modifying volume group: 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:56,827 dellemc_powerstore_volumegroup.py INFO : Successfully modified volume group: 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:56,827 dellemc_powerstore_volumegroup.py INFO : Getting VG Details 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0 None
+2020-06-23 15:32:56,876 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with id 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:57,391 dellemc_powerstore_protectionpolicy.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:57,391 dellemc_powerstore_protectionpolicy.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:57,391 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7f8349231208>
+2020-06-23 15:32:57,391 dellemc_powerstore_protectionpolicy.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f8341b7b080>
+2020-06-23 15:32:57,445 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of protection policy with  name: Ansible_policy1 , id: None
+2020-06-23 15:32:57,554 dellemc_powerstore_protectionpolicy.py INFO : Successfully got the details of protection policy name Ansible_policy1 from array name SiteA-Cluster and glboal id 0
+2020-06-23 15:32:57,554 dellemc_powerstore_protectionpolicy.py INFO : Ansible_30_minute_rule is a NAME
+2020-06-23 15:32:57,554 dellemc_powerstore_protectionpolicy.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:32:57,604 dellemc_powerstore_protectionpolicy.py INFO : Successfully got the details of snapshot rule name Ansible_30_minute_rule from array name SiteA-Cluster and glboal id 0
+2020-06-23 15:32:57,604 dellemc_powerstore_protectionpolicy.py INFO : deleting protection policy id 219eda7f-8461-47bb-bd7f-cd23af610683
+2020-06-23 15:32:57,805 dellemc_powerstore_protectionpolicy.py INFO : Successfully deleted protection policy id 219eda7f-8461-47bb-bd7f-cd23af610683 from powerstore array name : SiteA-Cluster , global id : 0
+2020-06-23 15:32:58,307 dellemc_powerstore_snapshotrule.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:58,307 dellemc_powerstore_snapshotrule.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:58,307 dellemc_powerstore_snapshotrule.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.provisioning.Provisioning object at 0x7fc4beb98208>
+2020-06-23 15:32:58,307 dellemc_powerstore_snapshotrule.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7fc4b77ac160>
+2020-06-23 15:32:58,363 dellemc_powerstore_snapshotrule.py INFO : Getting the details of snapshot rule , Name:Ansible_30_minute_rule , ID:None
+2020-06-23 15:32:58,412 dellemc_powerstore_snapshotrule.py INFO : Successfully got the details of snapshot rule name Ansible_30_minute_rule from array name SiteA-Cluster and glboal id 0
+2020-06-23 15:32:58,460 dellemc_powerstore_snapshotrule.py INFO : deleting snapshot rule id 0cdfe30b-7f02-41d8-8cd0-5f1f2ba964c7
+2020-06-23 15:32:58,660 dellemc_powerstore_snapshotrule.py INFO : Successfully deleted snapshot rule id 0cdfe30b-7f02-41d8-8cd0-5f1f2ba964c7 from powerstore array name : SiteA-Cluster , global id : 0
+2020-06-23 15:32:59,057 dellemc_powerstore_volumegroup.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:59,057 dellemc_powerstore_volumegroup.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:59,057 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f1bbe3dde48>
+2020-06-23 15:32:59,057 dellemc_powerstore_volumegroup.py INFO : Got Py4ps instance for protection on PowerStore <PyPowerStore.protection.ProtectionFunctions object at 0x7f1bb6d572b0>
+2020-06-23 15:32:59,057 dellemc_powerstore_volumegroup.py INFO : Getting VG Details None Ansible_VolumeGroup
+2020-06-23 15:32:59,147 dellemc_powerstore_volumegroup.py INFO : Successfully Got VG with name Ansible_VolumeGroup
+2020-06-23 15:32:59,147 dellemc_powerstore_volumegroup.py INFO : Deleting volume group 97f0b04e-ba03-4472-b3d2-9bfc95f9b6c0
+2020-06-23 15:32:59,869 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:32:59,869 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:32:59,869 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f269187be48>
+2020-06-23 15:33:00,024 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:33:00,025 dellemc_powerstore_volume.py INFO : Unmapping volume ansible_1_1 from host Ansible_Cluster_Host1_IG
+2020-06-23 15:33:00,721 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:33:00,721 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:33:00,721 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7ff8536cfe48>
+2020-06-23 15:33:01,008 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:33:01,008 dellemc_powerstore_volume.py INFO : Unmapping volume ansible_1_2 from host Ansible_Cluster_Host1_IG
+2020-06-23 15:33:01,975 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:33:01,975 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:33:01,975 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f4d49b2de48>
+2020-06-23 15:33:02,116 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:33:02,116 dellemc_powerstore_volume.py INFO : Unmapping volume ansible_1_3 from host Ansible_Cluster_Host1_IG
+2020-06-23 15:33:02,812 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:33:02,813 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:33:02,813 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fc946403e48>
+2020-06-23 15:33:02,960 dellemc_powerstore_volume.py INFO : No change detected
+2020-06-23 15:33:02,960 dellemc_powerstore_volume.py INFO : Unmapping volume ansible_1_4 from host Ansible_Cluster_Host1_IG
+2020-06-23 15:33:03,776 dellemc_powerstore_host.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:33:03,776 dellemc_powerstore_host.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:33:03,776 dellemc_powerstore_host.py INFO : Got Python library connection instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f7188599e48>
+2020-06-23 15:33:03,817 dellemc_powerstore_host.py INFO : Getting host 8381bcb4-22e7-406d-8a10-3870854a3fc8 details
+2020-06-23 15:33:03,865 dellemc_powerstore_host.py INFO : Delete host Ansible_Cluster_Host1_IG 
+2020-06-23 15:33:04,531 dellemc_powerstore_host.py INFO : changed True
+2020-06-23 15:33:04,927 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:33:04,928 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:33:04,928 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f7fa1c99e48>
+2020-06-23 15:33:05,056 dellemc_powerstore_volume.py INFO : Deleting volume ansible_1_1 
+2020-06-23 15:33:05,056 dellemc_powerstore_volume.py INFO : Deleting volume ansible_1_1
+2020-06-23 15:33:06,281 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:33:06,281 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:33:06,281 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fdfbe081e48>
+2020-06-23 15:33:06,373 dellemc_powerstore_volume.py INFO : Deleting volume ansible_1_2 
+2020-06-23 15:33:06,373 dellemc_powerstore_volume.py INFO : Deleting volume ansible_1_2
+2020-06-23 15:33:07,047 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:33:07,047 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:33:07,047 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7fc576b38e48>
+2020-06-23 15:33:07,149 dellemc_powerstore_volume.py INFO : Deleting volume ansible_1_3 
+2020-06-23 15:33:07,149 dellemc_powerstore_volume.py INFO : Deleting volume ansible_1_3
+2020-06-23 15:33:07,868 dellemc_powerstore_volume.py INFO : HAS_PY4PS = True , IMPORT_ERROR = 
+2020-06-23 15:33:07,868 dellemc_powerstore_volume.py INFO : IS_SUPPORTED_PY4PS_VERSION = True , VERSION_ERROR = 
+2020-06-23 15:33:07,868 dellemc_powerstore_volume.py INFO : Got Py4Ps instance for provisioning on PowerStore <PyPowerStore.powerstore_conn.PowerStoreConn object at 0x7f90fb295e48>
+2020-06-23 15:33:08,044 dellemc_powerstore_volume.py INFO : Deleting volume ansible_1_4 
+2020-06-23 15:33:08,044 dellemc_powerstore_volume.py INFO : Deleting volume ansible_1_4
